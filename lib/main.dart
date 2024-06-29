@@ -1,4 +1,4 @@
-import 'package:belajar/widget_wrap_14.dart';
+import 'package:belajar/text_alignment.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BelajarWidgetWrap(),
+      home: BelajarTextAlignment(),
     );
   }
 }
