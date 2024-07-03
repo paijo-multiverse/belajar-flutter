@@ -5,38 +5,76 @@ class BelajarPadding extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return const Scaffold(
+      body: Row(
+        children: [
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            child: Text('paijo'),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class TesSatu extends StatelessWidget {
+  const TesSatu({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       body: Row(
         children: [
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('ini'),
+            child: const Text('ini'),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('adalah'),
+            child: const Text('adalah'),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('paijo'),
+            child: const Text('paijo'),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('orang'),
+            child: const Text('orang'),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('paling'),
+            child: const Text('paling'),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            padding: const EdgeInsets.fromLTRB(20, 20, 10, 0),
             color: Colors.amber,
-            child: Text('ganteng'),
+            child: const Text('ganteng'),
           ),
         ],
       ),
