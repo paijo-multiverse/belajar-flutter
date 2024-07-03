@@ -13,7 +13,7 @@ class BelajarTextAlignment extends StatelessWidget {
           IconButton(onPressed: () {}, icon: const Icon(Icons.notification_add))
         ],
       ),
-      body: Align(
+      body: const Align(
         // untuk mengatur posisi
         // alignment: Alignment.topLeft,
         // alignment: Alignment.topRight,
@@ -24,7 +24,7 @@ class BelajarTextAlignment extends StatelessWidget {
         // alignment: Alignment.bottomCenter,
 
         // atur ukuran alignment sendiri
-        alignment: Alignment(-0.5,-1),
+        alignment: Alignment(-0.5, -1),
 
         child: SizedBox(
           width: 300,
