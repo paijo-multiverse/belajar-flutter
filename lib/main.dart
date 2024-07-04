@@ -9,13 +9,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       // theme: ThemeData(
       // kalau mau pakai google fonts tinggal aktifkan perintah dibawah ini
       //   textTheme: GoogleFonts.notoColorEmojiTextTheme(),
       // ),
-      home: const BelajarTextField(),
+      home: BelajarTextField(),
     );
   }
 }

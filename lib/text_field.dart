@@ -36,10 +36,10 @@ class _BelajarTextFieldState extends State<BelajarTextField> {
               ],
               onChanged: (value) => setState(() {}),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               textEditingController.text,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
               ),
